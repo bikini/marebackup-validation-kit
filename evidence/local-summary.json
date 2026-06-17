@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-17",
+  "marebackupTaskAudit": {
+    "task": "\\Microsoft\\Windows\\Application Experience\\MareBackup",
+    "principal": "S-1-5-18",
+    "embeddedBuGenericAll": true,
+    "builtinUsersFileFullControl": true,
+    "mediumTokenFileReadWrite": "OK",
+    "mediumTokenSameBytesWrite": "OK",
+    "taskFileSha256Before": "7C7E4A48F86BE63276A41BAB758D1751769267069658FB68C07CB7D719445380",
+    "taskFileSha256After": "7C7E4A48F86BE63276A41BAB758D1751769267069658FB68C07CB7D719445380",
+    "hashUnchanged": true
+  },
+  "offlineCandidateXml": {
+    "appliedToSystem": false,
+    "expectedInput": true,
+    "candidateGenerated": true,
+    "replaceAllActions": true,
+    "candidateAction": "%windir%\\System32\\cmd.exe /c whoami /all > \"C:\\ProgramData\\MareBackupVmValidation_20260617_052718.txt\""
+  },
+  "verdict": {
+    "permissiveTaskRightsPrimitive": "confirmed",
+    "directXmlLpe": "not verified",
+    "itm4nPathHijack": "precondition not observed on this host",
+    "pathPreconditionCheck": {
+      "powerShellPathIndex": 6,
+      "entriesBeforePowerShell": 6,
+      "lowPrivilegeWritableAceBeforePowerShell": 0,
+      "confirmedCreateBeforePowerShell": 0
+    }
+  }
+}

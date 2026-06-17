@@ -1,0 +1,34 @@
+﻿{
+    "TimestampUtc":  "2026-06-17T10:31:59.0430692Z",
+    "Mode":  "read-only",
+    "TaskName":  "\\Microsoft\\Windows\\Application Experience\\MareBackup",
+    "TaskFile":  "C:\\WINDOWS\\System32\\Tasks\\Microsoft\\Windows\\Application Experience\\MareBackup",
+    "Principal":  "S-1-5-18",
+    "PrincipalIsSystem":  true,
+    "EmbeddedSddl":  "D:(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;BU)(A;;FRFX;;;LS)",
+    "EmbeddedBuGenericAll":  true,
+    "BuiltinUsersFileFullControl":  true,
+    "Actions":  [
+                    "%windir%\\system32\\compattelrunner.exe -m:aeinv.dll -f:UpdateSoftwareInventoryW invsvc",
+                    "%windir%\\system32\\compattelrunner.exe -m:appraiser.dll -f:DoScheduledTelemetryRun",
+                    "%windir%\\system32\\compattelrunner.exe -m:aemarebackup.dll -f:BackupMareData"
+                ],
+    "TaskFileSha256Before":  "7C7E4A48F86BE63276A41BAB758D1751769267069658FB68C07CB7D719445380",
+    "MediumToken":  {
+                        "Attempted":  true,
+                        "User":  "REDACTED\\REDACTED",
+                        "Integrity":  "Medium",
+                        "Elevated":  "False",
+                        "TaskGenericAll":  "Full Access",
+                        "FileReadWrite":  "OK",
+                        "Error":  ""
+                    },
+    "SameBytesWrite":  {
+                           "Attempted":  false,
+                           "Result":  "",
+                           "HashAfter":  "",
+                           "HashUnchanged":  false,
+                           "Error":  ""
+                       },
+    "Interpretation":  "Permissive MareBackup task/file rights are evidence. Direct XML-edit SYSTEM execution is not proven by this script."
+}

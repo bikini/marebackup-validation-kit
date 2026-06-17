@@ -1,0 +1,72 @@
+﻿{
+    "TimestampUtc":  "2026-06-17T10:31:58.2037876Z",
+    "Mode":  "acl-only",
+    "PowerShellPath":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0",
+    "PowerShellPathIndex":  6,
+    "EntriesBeforePowerShell":  6,
+    "LowPrivilegeWritableAceBeforePowerShell":  0,
+    "ConfirmedCreateBeforePowerShell":  0,
+    "Results":  [
+                    {
+                        "Index":  0,
+                        "Path":  "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path",
+                        "Exists":  true,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  {
+
+                                                     },
+                        "CreateProbe":  "not requested"
+                    },
+                    {
+                        "Index":  1,
+                        "Path":  "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath",
+                        "Exists":  false,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  [
+
+                                                     ],
+                        "CreateProbe":  "not requested"
+                    },
+                    {
+                        "Index":  2,
+                        "Path":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin",
+                        "Exists":  true,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  {
+
+                                                     },
+                        "CreateProbe":  "not requested"
+                    },
+                    {
+                        "Index":  3,
+                        "Path":  "C:\\WINDOWS\\system32",
+                        "Exists":  true,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  {
+
+                                                     },
+                        "CreateProbe":  "not requested"
+                    },
+                    {
+                        "Index":  4,
+                        "Path":  "C:\\WINDOWS",
+                        "Exists":  true,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  {
+
+                                                     },
+                        "CreateProbe":  "not requested"
+                    },
+                    {
+                        "Index":  5,
+                        "Path":  "C:\\WINDOWS\\System32\\Wbem",
+                        "Exists":  true,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  {
+
+                                                     },
+                        "CreateProbe":  "not requested"
+                    }
+                ],
+    "Interpretation":  "itm4n PATH hijack precondition is strongest when ConfirmedCreateBeforePowerShell is greater than zero before Windows PowerShell."
+}

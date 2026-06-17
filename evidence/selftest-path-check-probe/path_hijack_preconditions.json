@@ -1,0 +1,72 @@
+﻿{
+    "TimestampUtc":  "2026-06-17T10:32:10.1031470Z",
+    "Mode":  "acl-plus-create-delete-probe",
+    "PowerShellPath":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0",
+    "PowerShellPathIndex":  6,
+    "EntriesBeforePowerShell":  6,
+    "LowPrivilegeWritableAceBeforePowerShell":  0,
+    "ConfirmedCreateBeforePowerShell":  0,
+    "Results":  [
+                    {
+                        "Index":  0,
+                        "Path":  "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path",
+                        "Exists":  true,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  {
+
+                                                     },
+                        "CreateProbe":  "ERR Access to the path \u0027C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path\\.marebackup_path_probe_7f96dd9f4a3b434887ff51dccb20574f.tmp\u0027 is denied."
+                    },
+                    {
+                        "Index":  1,
+                        "Path":  "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath",
+                        "Exists":  false,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  [
+
+                                                     ],
+                        "CreateProbe":  "not requested"
+                    },
+                    {
+                        "Index":  2,
+                        "Path":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin",
+                        "Exists":  true,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  {
+
+                                                     },
+                        "CreateProbe":  "ERR Access to the path \u0027C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin\\.marebackup_path_probe_3133fa1aefc64604bbb3bb03e09bc4c7.tmp\u0027 is denied."
+                    },
+                    {
+                        "Index":  3,
+                        "Path":  "C:\\WINDOWS\\system32",
+                        "Exists":  true,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  {
+
+                                                     },
+                        "CreateProbe":  "ERR Access to the path \u0027C:\\WINDOWS\\system32\\.marebackup_path_probe_92021baeaab7410ea469d9dc402caea4.tmp\u0027 is denied."
+                    },
+                    {
+                        "Index":  4,
+                        "Path":  "C:\\WINDOWS",
+                        "Exists":  true,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  {
+
+                                                     },
+                        "CreateProbe":  "ERR Access to the path \u0027C:\\WINDOWS\\.marebackup_path_probe_1c27963a6a70417d928c73685c5ac96b.tmp\u0027 is denied."
+                    },
+                    {
+                        "Index":  5,
+                        "Path":  "C:\\WINDOWS\\System32\\Wbem",
+                        "Exists":  true,
+                        "LowPrivilegeWritableAce":  false,
+                        "MatchingLowPrivilegeAces":  {
+
+                                                     },
+                        "CreateProbe":  "ERR Access to the path \u0027C:\\WINDOWS\\System32\\Wbem\\.marebackup_path_probe_367f9abd5f7e443796562e381c8ef60b.tmp\u0027 is denied."
+                    }
+                ],
+    "Interpretation":  "itm4n PATH hijack precondition is strongest when ConfirmedCreateBeforePowerShell is greater than zero before Windows PowerShell."
+}

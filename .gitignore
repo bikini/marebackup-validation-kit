@@ -1,0 +1,7 @@
+*.log
+*.tmp
+evidence/*/whoami_all.txt
+evidence/*/task_query.xml
+evidence/*/task_file_acl.txt
+evidence/*/candidate_task_query_marker.xml
+evidence/*/candidate_*.xml
